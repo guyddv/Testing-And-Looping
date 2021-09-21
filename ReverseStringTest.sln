@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{43846BB9-2FEE-4752-89C1-15F7718042F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{8129E7CF-B42B-4954-A061-1A0E6A5E1BB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43846BB9-2FEE-4752-89C1-15F7718042F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43846BB9-2FEE-4752-89C1-15F7718042F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43846BB9-2FEE-4752-89C1-15F7718042F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43846BB9-2FEE-4752-89C1-15F7718042F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8129E7CF-B42B-4954-A061-1A0E6A5E1BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8129E7CF-B42B-4954-A061-1A0E6A5E1BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8129E7CF-B42B-4954-A061-1A0E6A5E1BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8129E7CF-B42B-4954-A061-1A0E6A5E1BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B2415CD-6E16-4A36-8256-9DD850631B42}
+	EndGlobalSection
+EndGlobal
