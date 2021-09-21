@@ -14,13 +14,15 @@ namespace ReverseString
 
         public string GetInput()
         {
-            Console.WriteLine("Please enter a string, any word or sentence will do: ");
-            UserInput = Console.ReadLine();
-            VerifyInput(UserInput);
-            //for (int i = UserInput.Length - 1; i > -1; i--)
-            //{
-            //    StringOutput += UserInput[i];
-            //}
+            //UserInput = Console.ReadLine();
+            UserInput = "Guy".ToLower();
+            if (VerifyInput(UserInput) == true)
+            {
+                for (int i = UserInput.Length - 1; i > -1; i--)
+                {
+                    StringOutput += UserInput[i];
+                }
+            }
 
             return StringOutput;
         }

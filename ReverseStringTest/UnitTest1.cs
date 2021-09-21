@@ -11,7 +11,7 @@ namespace ReverseStringTest
         {
             //Arrange
             var sut = new ReverseStringInput();
-            var input = "guy";
+            //var input = "guy";
             var expected = "yug";
 
             //Act

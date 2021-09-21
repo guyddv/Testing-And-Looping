@@ -17,10 +17,12 @@ namespace ReverseString
                 {
                     if (i * 2 == checkArray[j])
                     {
+                        Messages.HasDouble();
                         return true;
                     }
                 }
             }
+            Messages.NoDouble();
             return false;
         }
     }
